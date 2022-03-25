@@ -11,9 +11,9 @@
         android:id="@+id/imageButtonFibo"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@drawable/fibonacci"
         android:contentDescription="urlWiki"
         android:onClick="wikiFibo"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/fibonacci" />
 
     <ScrollView
